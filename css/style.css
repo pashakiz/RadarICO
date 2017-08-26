@@ -55,18 +55,18 @@ body {
 .bullet_right {}
 .bullet_1 {
 	left: 50%;
-	top: 195px;
-	margin-left: -322px; /*del*/
+	top: 222px;
+	margin-left: -264px; /*del*/
 }
 .bullet_2 {
 	left: 50%;
-	top: 227px;
-	margin-left: 17px;
+	top: 247px;
+	margin-left: 18px;
 }
 .bullet_3 {
 	left: 50%;
-	top: 284px;
-	margin-left: -467px; /*del*/
+	top: 318px;
+	margin-left: -411px; /*del*/
 }
 .bullet__table {}
 .bullet__table td {
@@ -74,24 +74,28 @@ body {
 	line-height: 1;
 }
 .bullet__table td.bullet__value {
-	width: 120px;
+	width: 125px;
 	font-weight: bold;
-	font-size: 55px;
+	font-size: 30px;
 	border-bottom: 5px dotted #bec094;
 }
 .bullet__table td.bullet__text {
+	width: 130px;
+	max-width: 130px;
 	font-weight: normal;
-	font-size: 33px;
+	font-size: 16px;
 }
 .bullet.bullet_left .bullet__table td.bullet__value {
 	text-align: left;
 }
 .bullet.bullet_left .bullet__table td.bullet__text {
 	padding-right: 7px;
+	text-align: right;
 }
 .bullet.bullet_right .bullet__table td.bullet__value {
 	text-align: right;
 }
 .bullet.bullet_right .bullet__table td.bullet__text {
 	padding-left: 7px;
+	text-align: left;
 }
