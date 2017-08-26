@@ -32,11 +32,6 @@ body {
 
 }
 .first-screen {
-	/*height: 470px; !*del*!*/
-	/*background-image: url('../img/illustration.svg');*/
-	/*background-position: 50% 100%;*/
-	/*background-repeat: no-repeat;*/
-	/*background-size: cover;*/
 	position: relative;
 }
 .first-screen__inner {
