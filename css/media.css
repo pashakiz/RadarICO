@@ -45,7 +45,10 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+    .bullet {
+        display: block;
+        position: absolute;
+    }
 }
 
  /* Large Devices, Wide Screens */
