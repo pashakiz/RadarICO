@@ -35,7 +35,12 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+    .ico-sheet__header-lnk {
+        position: absolute;
+        right: 13px;
+        top: 50%;
+        margin-top: -6px;
+    }
 }
 
 /* Small Devices, Tablets */

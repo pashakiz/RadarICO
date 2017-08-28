@@ -32,10 +32,6 @@ body {
 }
 a {
 	color: #5fa181;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
 }
 a:hover {
 	opacity: 0.6;
@@ -45,6 +41,9 @@ a:hover {
 input, textarea {
 	border: 1px solid #d2d2d2;
 	padding: 8px 12px;
+}
+.btn {
+	border-radius: 0;
 }
 .header {
 	background-color: #eff0ea;
@@ -223,8 +222,126 @@ a.bullet:hover {
 .content {
 	padding: 23px 0;
 }
-.ico-sheet {}
-
+.content_pt35 {
+	padding-top: 35px;
+}
+.ico-sheet {
+	display: block;
+	border: 1px solid #eeefea;
+	color: #5fa181;
+	margin-bottom: 50px;
+}
+.ico-sheet__header {
+	display: block;
+	text-align: center;
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 13px;
+	position: relative;
+}
+.ico-sheet__header-lnk {
+	display: block;
+	font-size: 6pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-top: 2px;
+}
+.ico-sheet__table {
+	display: table;
+	border-collapse: collapse;
+}
+.ico-sheet__row {
+	display: table-row;
+	border-top: 1px solid #eeefea;
+	height: 82px;
+}
+.ico-sheet__row:hover {
+	background-color: #eeefea;
+	opacity: 1;
+}
+.ico-sheet__td {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 18px 14px;
+}
+.ico-sheet__td1 {
+	text-align: center;
+	width: 30px;
+}
+.ico-sheet__td1-inner {
+	color: #3e3e3e;
+	font-size: 9pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.ico-sheet__td2 {
+	color: #5fa181;
+	font-size: 8pt;
+	padding-left: 0;
+	padding-right: 0;
+}
+.ico-sheet__td2-inner {
+	border-left: 1px solid #eeefea;
+	border-right: 1px solid #eeefea;
+	padding: 0 10px;
+}
+.ico-sheet__td2-inner_eol {
+	color: #3e3e3e;
+	border-right: none;
+	padding-right: 14px;
+	font-size: 9pt;
+}
+.ico-sheet__td3 {
+	width: 30px;
+	text-align: center;
+}
+.ico-sheet__icon {
+	font-size: 19px;
+	width: 30px;
+}
+.ico-sheet__header-lnk:hover {
+	text-decoration: none;
+}
+.count-days {
+	width: 30px;
+	color: #5fa181;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+}
+.count-days__count {
+	font-size: 22pt;
+}
+.count-days__days {
+	font-size: 9pt;
+	text-transform: uppercase;
+}
+.subscribe {
+	background-color: #5ea281;
+	padding: 62px 0 61px;
+}
+.subscribe_mb {
+	margin-bottom: 126px;
+}
+.subscribe__input {
+	background-color: #f6f6ea;
+	color: #3e3e3e;
+	font-size: 12pt;
+	padding: 15px 26px;
+}
+.subscribe__btn {
+	width: 210px;
+	background-color: #a7d692;
+	font-size: 12pt;
+	color: #feffff;
+	text-transform: uppercase;
+	padding: 15px 26px;
+}
+.subscribe__btn:hover {
+	color: #feffff;
+	background-color: #b4dda2;
+}
 
 .footer {
 	background-color: #eeefea;
