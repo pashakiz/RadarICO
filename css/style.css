@@ -182,6 +182,7 @@ ul.nav_mobile li + li {
 	opacity: 0.6;
 }
 .first-screen {
+    width: 100%;
 	position: relative;
 }
 .first-screen__inner {
