@@ -54,6 +54,15 @@
         display: block;
         position: absolute;
     }
+    .subscribe__input {
+        width: 230px;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .subscribe__btn {
+        width: 210px;
+        margin-top: 0;
+    }
 }
 
  /* Large Devices, Wide Screens */

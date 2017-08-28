@@ -49,37 +49,37 @@ input, textarea {
 	background-color: #eff0ea;
 	padding: 30px 0;
 }
-ul.nav__list {
+ul.nav {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	font-size: 0;
 	font-size: 1px;
 }
-ul.nav__list li {
+ul.nav li {
 	display: inline-block;
 	padding: 17px 0;
 }
-ul.nav__list li.nav__search {
+ul.nav li.nav__search {
 	padding: 13px 0;
 }
-ul.nav__list li + li {
+ul.nav li + li {
 	margin-left: 33px;
 }
-ul.nav__list.nav__list_header-left li + li {
+ul.nav.nav_header-left li + li {
 	margin-left: 78px;
 }
-ul.nav__list li a {
+ul.nav li a {
 	color: #5fa181;
 	font-size: 13pt;
 }
-ul.nav__list li a:hover {
+ul.nav li a:hover {
 	color: #5fa181;
 }
-.nav__list_header-left {
+.nav_header-left {
 	float: left;
 }
-.nav__list_header-right {
+.nav_header-right {
 	float: right;
 }
 .logo {
@@ -325,18 +325,22 @@ a.bullet:hover {
 	margin-bottom: 126px;
 }
 .subscribe__input {
+	width: 100%;
 	background-color: #f6f6ea;
 	color: #3e3e3e;
 	font-size: 12pt;
 	padding: 15px 26px;
+	margin-bottom: 15px;
+	text-align: center;
 }
 .subscribe__btn {
-	width: 210px;
+	width: 100%;
 	background-color: #a7d692;
 	font-size: 12pt;
 	color: #feffff;
 	text-transform: uppercase;
 	padding: 15px 26px;
+	margin-top: 5px;
 }
 .subscribe__btn:hover {
 	color: #feffff;
@@ -359,10 +363,10 @@ a.bullet:hover {
 .logo-grayscale:hover {
 	background-image: url('../img/logo.svg');
 }
-ul.nav__list_footer {
+ul.nav_footer {
 	text-align: center;
 }
-ul.nav__list_footer li {
+ul.nav_footer li {
 	padding: 11px 0;
 }
 .social-icons {
