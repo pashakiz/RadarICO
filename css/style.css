@@ -1,17 +1,17 @@
 *::-webkit-input-placeholder {
-	color: #666;
+	color: #888;
 	opacity: 1;
 }
 *:-moz-placeholder {
-	color: #666;
+	color: #888;
 	opacity: 1;
 }
 *::-moz-placeholder {
-	color: #666;
+	color: #888;
 	opacity: 1;
 }
 *:-ms-input-placeholder {
-	color: #666;
+	color: #888;
 	opacity: 1;
 }
 
@@ -25,7 +25,7 @@ body textarea:required:valid {
 }
 body {
 	font-family: "Lato", sans-serif;
-	font-size: 13pt;
+	font-size: 11px;
 	font-weight: normal;
 	line-height: 1.42857143;
 	color: #333;
@@ -71,7 +71,7 @@ ul.nav.nav_header-left li + li {
 }
 ul.nav li a {
 	color: #5fa181;
-	font-size: 13pt;
+	font-size: 17px;
 	padding: 0;
 }
 ul.nav li a:hover {
@@ -129,7 +129,7 @@ ul.nav_mobile li + li {
 }
 .slogan {
 	color: #a9aa81;
-	font-size: 9.8pt;
+	font-size: 13px;
 	margin-top: 10px;
 	text-align: center;
 }
@@ -147,7 +147,7 @@ ul.nav_mobile li + li {
 	width: 100%;
 	height: 100%;
 	color: #676766;
-	font-size: 10pt;
+	font-size: 13px;
 	border: 1px solid #eeefea;
 	padding: 7px 33px 7px 12px;
 	outline: none;
@@ -234,14 +234,14 @@ a.bullet:hover {
 .bullet__table td.bullet__value {
 	width: 125px;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 28px;
 	border-bottom: 5px dotted #bec094;
 }
 .bullet__table td.bullet__text {
 	width: 130px;
 	max-width: 130px;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 17px;
 }
 .bullet.bullet_left .bullet__table td.bullet__value {
 	text-align: left;
@@ -272,14 +272,14 @@ a.bullet:hover {
 .ico-sheet__header {
 	display: block;
 	text-align: center;
-	font-size: 10pt;
+	font-size: 14px;
 	font-weight: bold;
 	padding: 13px;
 	position: relative;
 }
 .ico-sheet__header-lnk {
 	display: block;
-	font-size: 6pt;
+	font-size: 8px;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: underline;
@@ -296,8 +296,15 @@ a.bullet:hover {
 	height: 82px;
 }
 .ico-sheet__row:hover {
-	background-color: #eeefea;
+	background-color: #a6e08d;
 	opacity: 1;
+	color: #fff !important;
+}
+.ico-sheet__row:hover .ico-sheet__td1-inner,
+.ico-sheet__row:hover .count-days,
+.ico-sheet__row:hover .ico-sheet__td2,
+.ico-sheet__row:hover .ico-sheet__td2-inner_eol {
+	color: #fff;
 }
 .ico-sheet__td {
 	display: table-cell;
@@ -310,13 +317,13 @@ a.bullet:hover {
 }
 .ico-sheet__td1-inner {
 	color: #3e3e3e;
-	font-size: 9pt;
+	font-size: 11px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 .ico-sheet__td2 {
 	color: #5fa181;
-	font-size: 8pt;
+	font-size: 11px;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -329,7 +336,7 @@ a.bullet:hover {
 	color: #3e3e3e;
 	border-right: none;
 	padding-right: 14px;
-	font-size: 9pt;
+	font-size: 11px;
 }
 .ico-sheet__td3 {
 	width: 30px;
@@ -350,10 +357,10 @@ a.bullet:hover {
 	line-height: 1;
 }
 .count-days__count {
-	font-size: 22pt;
+	font-size: 28px;
 }
 .count-days__days {
-	font-size: 9pt;
+	font-size: 11px;
 	text-transform: uppercase;
 }
 .subscribe {
@@ -367,7 +374,7 @@ a.bullet:hover {
 	width: 100%;
 	background-color: #f6f6ea;
 	color: #3e3e3e;
-	font-size: 12pt;
+	font-size: 15px;
 	padding: 15px 26px;
 	margin-bottom: 15px;
 	text-align: center;
@@ -375,7 +382,7 @@ a.bullet:hover {
 .subscribe__btn {
 	width: 100%;
 	background-color: #a7d692;
-	font-size: 12pt;
+	font-size: 15px;
 	color: #feffff;
 	text-transform: uppercase;
 	padding: 15px 26px;
@@ -383,7 +390,7 @@ a.bullet:hover {
 }
 .subscribe__btn:hover {
 	color: #feffff;
-	background-color: #b4dda2;
+	background-color: #9acf83;
 }
 .footer {
 	background-color: #eeefea;
