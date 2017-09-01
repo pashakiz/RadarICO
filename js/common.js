@@ -30,11 +30,18 @@ $(document).ready(function() {
 
     // .nav-filter expand
     $(".nav-filter__item").on('click', function () {
-        $('.nav-filter__link').removeClass('active');
-        $(this).find('.nav-filter__link').addClass('active');
-        $('.nav-filter .dropdown').slideUp();
-        $(this).find('.dropdown').slideDown();
-        $(this).find('.icon-arrow-down').toggleClass('up');
+        var link = $(this).find('.nav-filter__link');
+        if( link.hasClass('active') ) {
+            $(this).find('.dropdown').slideUp();
+            link.removeClass('active');
+            $(this).find('.icon-arrow-down').removeClass('up');
+        } else {
+            $('.nav-filter__link').removeClass('active');
+            $(this).find('.nav-filter__link').addClass('active');
+            $('.nav-filter .dropdown').slideUp();
+            $(this).find('.dropdown').slideDown();
+            $(this).find('.icon-arrow-down').addClass('up');
+        }
     });
 
 });
