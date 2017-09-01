@@ -2,7 +2,7 @@
   "metadata": {
     "name": "RadarICO",
     "lastOpened": 0,
-    "created": 1503740695719
+    "created": 1504294337860
   },
   "iconSets": [
     {
@@ -10,57 +10,98 @@
         {
           "order": 2,
           "id": 10,
-          "name": "arrow-down"
+          "name": "arrow-down",
+          "prevSize": 32,
+          "code": 59648,
+          "tempChar": ""
         },
         {
           "order": 3,
           "id": 8,
-          "name": "checkbox"
+          "name": "checkbox",
+          "prevSize": 32,
+          "code": 59649,
+          "tempChar": ""
         },
         {
           "order": 4,
           "id": 9,
-          "name": "check"
+          "name": "check",
+          "prevSize": 32,
+          "code": 59650,
+          "tempChar": ""
         },
         {
           "order": 5,
           "id": 7,
-          "name": "circle-fill"
+          "name": "circle-fill",
+          "prevSize": 32,
+          "code": 59651,
+          "tempChar": ""
         },
         {
           "order": 6,
           "id": 5,
-          "name": "file"
+          "name": "file",
+          "prevSize": 32,
+          "code": 59652,
+          "tempChar": ""
         },
         {
           "order": 7,
           "id": 4,
-          "name": "file2"
+          "name": "file2",
+          "prevSize": 32,
+          "code": 59653,
+          "tempChar": ""
         },
         {
           "order": 8,
           "id": 2,
-          "name": "search"
+          "name": "search",
+          "prevSize": 32,
+          "code": 59654,
+          "tempChar": ""
         },
         {
           "order": 9,
           "id": 6,
-          "name": "fb"
+          "name": "fb",
+          "prevSize": 32,
+          "code": 59655,
+          "tempChar": ""
         },
         {
           "order": 10,
           "id": 3,
-          "name": "instagram"
+          "name": "instagram",
+          "prevSize": 32,
+          "code": 59656,
+          "tempChar": ""
         },
         {
           "order": 11,
           "id": 1,
-          "name": "twitter"
+          "name": "twitter",
+          "prevSize": 32,
+          "code": 59657,
+          "tempChar": ""
         },
         {
           "order": 12,
           "id": 0,
-          "name": "youtube"
+          "name": "youtube",
+          "prevSize": 32,
+          "code": 59658,
+          "tempChar": ""
+        },
+        {
+          "order": 14,
+          "id": 11,
+          "name": "close",
+          "prevSize": 32,
+          "code": 59659,
+          "tempChar": ""
         }
       ],
       "id": 0,
@@ -202,6 +243,21 @@
           "tags": [
             "youtube"
           ]
+        },
+        {
+          "id": 11,
+          "paths": [
+            "M950.968 0.619l73.538 73.538-950.342 950.342-73.538-73.538 950.342-950.342z",
+            "M1023.381 950.968l-73.538 73.538-950.342-950.342 73.538-73.538 950.342 950.342z"
+          ],
+          "attrs": [],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "close"
+          ],
+          "colorPermutations": {}
         }
       ],
       "invisible": false,
@@ -209,7 +265,6 @@
       "colorThemeIdx": 0
     }
   ],
-  "uid": -1,
   "preferences": {
     "showGlyphs": true,
     "showCodes": true,
@@ -237,5 +292,6 @@
     },
     "historySize": 50,
     "gridSize": 16
-  }
+  },
+  "uid": -1
 }

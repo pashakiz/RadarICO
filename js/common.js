@@ -28,4 +28,10 @@ $(document).ready(function() {
 
     });
 
+    // .nav-filter expand
+    $(".nav-filter__item").on('click', function () {
+        $(this).find('.dropdown').slideToggle();
+        $(this).find('.icon-arrow-down').toggleClass('up');
+    });
+
 });
