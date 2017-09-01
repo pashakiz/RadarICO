@@ -17,4 +17,15 @@ $(document).ready(function() {
         $(".nav_mobile").slideToggle();
     });
 
+    // Sort table.table-ico (2.html)
+    $(".js-sort-table").on('click', function () {
+        var icon = $(this).find('.icon-arrow-down');
+        $('.icon-arrow-down').removeClass('active');
+        icon.addClass('active');
+        icon.toggleClass('up');
+
+        // sorting...
+
+    });
+
 });

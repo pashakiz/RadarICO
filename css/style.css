@@ -397,6 +397,98 @@ a.bullet:hover {
 	color: #feffff;
 	background-color: #9acf83;
 }
+.filter {
+    float: right;
+    font-size: 0;
+    font-size: 1px;
+}
+.filter__btn {
+    background-color: #fff;
+    color: #6fcbda;
+    font-size: 12px;
+    border-top: 1px solid #6fcbda;
+    border-bottom: 1px solid #6fcbda;
+    border-right: 1px solid #6fcbda;
+}
+.filter__btn:first-child {
+    border-left: 1px solid #6fcbda;
+}
+.filter__btn:hover,
+.filter__btn.active {
+    background-color: #6fcbda;
+    color: #fff;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.title {
+    color: #6fcbda;
+    font-size: 20px;
+    line-height: 19px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.table-ico {
+    width: 100%;
+    font-size: 14px;
+    line-height: 19px;
+    color: #494949;
+    font-weight: normal;
+    border: 1px solid #eeefea;
+	margin-bottom: 60px;
+}
+.table-ico__tr {}
+.table-ico__th {
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.table-ico__th:hover {
+    opacity: 0.8;
+}
+.table-ico__th > .icon-arrow-down {
+    display: inline-block;
+    font-size: 10px;
+    color: #d2d2d2;
+    transition: transform 0.3s ease 0s;
+}
+.table-ico__th > .icon-arrow-down.up {
+    transform: rotate(-180deg);
+}
+.table-ico__th > .icon-arrow-down.active {
+    color: #5fa181;
+}
+.table-ico__td {
+    padding: 15px;
+    border-top: 1px solid #eeefea;
+	vertical-align: middle;
+}
+.table-ico__tr:hover .table-ico__td {
+	background-color: #eeefea;
+}
+.table-ico__td-name {
+	background: no-repeat 15px 50%;
+	background-size: 40px;
+	padding-top: 26px;
+	padding-bottom: 26px;
+	padding-left: 60px !important;
+}
+.table-ico__td > .icon-circle-fill {
+	display: inline-block;
+	font-size: 11px;
+	margin-right: 6px;
+}
+.color-orange {
+	color: #ffb33c;
+}
+.color-red {
+	color: #ff493b;
+}
+.color-green {
+	color: #5fa181;
+}
+
 .footer {
 	background-color: #eeefea;
 	padding: 35px 0 32px;
@@ -421,17 +513,24 @@ ul.nav_footer li {
 	padding: 11px 0;
 }
 .social-icons {
-	width: 160px;
-	margin: 25px auto 0;
 	font-size: 0;
 	font-size: 1px;
+	font-size: 15px;
+}
+.social-icons_footer {
+	width: 160px;
+	margin: 25px auto 0;
 	padding: 11px 0;
+	font-size: 21px;
 }
 .social {
 	display: inline-block;
-	font-size: 21px;
+	font-size: inherit;
 	color: #bababa;
 }
 .social + .social {
+	margin-left: 10px;
+}
+.social-icons_footer .social + .social {
 	margin-left: 25px;
 }
