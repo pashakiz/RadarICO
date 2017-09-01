@@ -226,34 +226,39 @@ a.bullet:hover {
 	top: 30%;
 	margin-left: -396px; /*del*/
 }
-.bullet__table {}
-.bullet__table td {
+.bullet__info {
+	display: table;
+}
+.bullet__text,
+.bullet__value {
+	display: table-cell;
 	color: #a9aa81;
 	line-height: 1;
+	vertical-align: middle;
 }
-.bullet__table td.bullet__value {
+.bullet__value {
 	width: 125px;
 	font-weight: bold;
 	font-size: 28px;
 	border-bottom: 5px dotted #bec094;
 }
-.bullet__table td.bullet__text {
+.bullet__text {
 	width: 130px;
 	max-width: 130px;
 	font-weight: normal;
 	font-size: 17px;
 }
-.bullet.bullet_left .bullet__table td.bullet__value {
+.bullet.bullet_left .bullet__info .bullet__value {
 	text-align: left;
 }
-.bullet.bullet_left .bullet__table td.bullet__text {
+.bullet.bullet_left .bullet__info .bullet__text {
 	padding-right: 7px;
 	text-align: right;
 }
-.bullet.bullet_right .bullet__table td.bullet__value {
+.bullet.bullet_right .bullet__info .bullet__value {
 	text-align: right;
 }
-.bullet.bullet_right .bullet__table td.bullet__text {
+.bullet.bullet_right .bullet__info .bullet__text {
 	padding-left: 7px;
 	text-align: left;
 }
