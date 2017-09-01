@@ -30,7 +30,10 @@ $(document).ready(function() {
 
     // .nav-filter expand
     $(".nav-filter__item").on('click', function () {
-        $(this).find('.dropdown').slideToggle();
+        $('.nav-filter__link').removeClass('active');
+        $(this).find('.nav-filter__link').addClass('active');
+        $('.nav-filter .dropdown').slideUp();
+        $(this).find('.dropdown').slideDown();
         $(this).find('.icon-arrow-down').toggleClass('up');
     });
 
