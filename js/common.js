@@ -23,9 +23,7 @@ $(document).ready(function() {
         $('.icon-arrow-down').removeClass('active');
         icon.addClass('active');
         icon.toggleClass('up');
-
         // sorting...
-
     });
 
     // .nav-filter expand

@@ -150,7 +150,7 @@ ul.nav_mobile li + li {
 	height: 100%;
 	color: #676766;
 	font-size: 13px;
-	border: 1px solid #eeefea;
+	border: 1px solid #c2dace;
 	padding: 7px 33px 7px 12px;
 	outline: none;
 }
@@ -159,7 +159,7 @@ ul.nav_mobile li + li {
 	border: 1px solid #c2dace;
 }
 .search__btn {
-	color: #eeefea;
+	color: #5fa181;
 	background: none;
 	outline: none;
 	border: none;
@@ -175,7 +175,7 @@ ul.nav_mobile li + li {
 	-ms-transition: all 0.3s ease;
 }
 .search__btn:hover {
-	color: #5fa181;
+	opacity: 0.6;
 }
 .search.search_header .search__btn {
 	color: #5fa181;
@@ -406,35 +406,35 @@ a.bullet:hover {
 }
 .filter__btn {
     background-color: #fff;
-    color: #6fcbda;
+    color: #5fa181;
     font-size: 12px;
-    border-top: 1px solid #6fcbda;
-    border-bottom: 1px solid #6fcbda;
-    border-right: 1px solid #6fcbda;
+    border-top: 1px solid #5fa181;
+    border-bottom: 1px solid #5fa181;
+    border-right: 1px solid #5fa181;
 }
 .filter__btn:first-child {
-    border-left: 1px solid #6fcbda;
+    border-left: 1px solid #5fa181;
 }
 .filter__btn:hover,
 .filter__btn.active {
-    background-color: #6fcbda;
+    background-color: #5fa181;
     color: #fff;
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 .title1 {
-	color: #010101;
+	color: #333;
 	font-size: 20px;
 	line-height: 19px;
 	font-weight: 300;
 	margin-bottom: 27px;
 }
 .title2 {
-    color: #6fcbda;
+    color: #494949;
     font-size: 20px;
     line-height: 19px;
-    font-weight: bold;
+    font-weight: 300;
     margin-bottom: 14px;
 }
 .table-ico {
@@ -665,7 +665,7 @@ ul.nav_footer li {
 	font-size: 15px;
 }
 .social-icons_footer {
-	width: 160px;
+	width: 180px;
 	margin: 25px auto 0;
 	padding: 11px 0;
 	font-size: 21px;
