@@ -24,6 +24,7 @@ body textarea:required:valid {
 	
 }
 body {
+    background-color: #fff;
 	font-family: "Lato", sans-serif;
 	font-size: 11px;
 	font-weight: normal;
@@ -44,6 +45,18 @@ input, textarea {
 }
 .btn {
 	border-radius: 0;
+}
+.btn1 {
+    background-color: #a7d692;
+    font-size: 15px;
+    color: #feffff;
+    text-transform: uppercase;
+    padding: 15px 26px;
+    margin-top: 5px;
+}
+.btn1:hover {
+    color: #feffff;
+    background-color: #9acf83;
 }
 .header {
 	background-color: #eff0ea;
@@ -267,8 +280,25 @@ a.bullet:hover {
 .content {
 	padding: 23px 0;
 }
+.content_footer-margin {
+    padding-bottom: 126px;
+}
 .content_pt35 {
 	padding-top: 35px;
+}
+.content_pt42 {
+    padding-top: 42px;
+}
+.content p {
+    color: #333;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.content p.p15 {
+    font-size: 15px;
+    line-height: 1.42857143;
+    margin-bottom: 15px;
 }
 .ico-sheet {
 	display: block;
@@ -374,8 +404,8 @@ a.bullet:hover {
 	background-color: #5ea281;
 	padding: 62px 0 61px;
 }
-.subscribe_mb {
-	margin-bottom: 126px;
+.subscribe_footer-margin {
+    margin-bottom: 126px;
 }
 .subscribe__input {
 	width: 100%;
@@ -387,17 +417,7 @@ a.bullet:hover {
 	text-align: center;
 }
 .subscribe__btn {
-	width: 100%;
-	background-color: #a7d692;
-	font-size: 15px;
-	color: #feffff;
-	text-transform: uppercase;
-	padding: 15px 26px;
-	margin-top: 5px;
-}
-.subscribe__btn:hover {
-	color: #feffff;
-	background-color: #9acf83;
+    width: 100%;
 }
 .filter {
     float: right;
@@ -424,18 +444,29 @@ a.bullet:hover {
     box-shadow: none;
 }
 .title1 {
-	color: #333;
-	font-size: 20px;
-	line-height: 19px;
+	color: #494949;
+	font-size: 32px;
+	line-height: 32px;
 	font-weight: 300;
-	margin-bottom: 27px;
+	margin-bottom: 17px;
 }
 .title2 {
     color: #494949;
     font-size: 20px;
-    line-height: 19px;
+    line-height: 20px;
     font-weight: 300;
     margin-bottom: 14px;
+}
+.title2_mb27 {
+    margin-bottom: 27px;
+}
+.title3 {
+    color: #5fa181;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
 }
 .table-ico {
     width: 100%;
