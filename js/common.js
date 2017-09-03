@@ -42,4 +42,16 @@ $(document).ready(function() {
         }
     });
 
+    // Custom checkboxes
+    $(".checkbox").on("click", function() {
+        var current_checkbox = $(this).children(":checkbox");
+        if ( current_checkbox.prop("checked") ) {
+            current_checkbox.prop("checked", false);
+            $(this).children(".checkbox__icon").removeClass("icon-check");
+        } else {
+            current_checkbox.prop("checked", true);
+            $(this).children(".checkbox__icon").addClass("icon-check");
+        }
+    });
+
 });
